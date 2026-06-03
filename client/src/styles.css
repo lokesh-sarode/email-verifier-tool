@@ -11,7 +11,12 @@
 body {
   margin: 0;
 }
-
+h2, .manual-card label{
+  color: #000;
+}
+.info-card{
+background-color: #111827 !important;
+}
 button,
 input {
   font: inherit;
@@ -51,7 +56,7 @@ input {
   display: grid;
   place-items: center;
   color: #fff;
-  background: #07164a;
+  background: #660000;
 }
 
 nav {
@@ -218,7 +223,7 @@ p {
 
 .primary-button,
 .download-button {
-  background: #2862f3;
+  background: #9f0c0c;
   color: #fff;
 }
 
